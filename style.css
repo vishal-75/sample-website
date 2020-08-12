@@ -1,0 +1,111 @@
+*{ margin: 0;padding: 0; box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+a{ text-decoration: none;}
+li{
+    font-size: 20px;
+    color: burlywood !important;
+    font-weight: 600;
+}
+li:hover{
+   font-weight: 900;
+    color: blanchedalmond;
+    text-shadow: 1px 1px red;  
+}
+#a{
+    font-size: 30px;
+    font-weight: 900;
+}
+#b{
+    font-size: 20px;
+    font-weight: 700;
+}
+#c{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+/*Start div1*/
+.vi1{
+    min-height: 100px;
+}
+.vi2{
+    height: 300px !important;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(60, 255, 0, 0.3),rgba(14, 30, 247, 0.3)), url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%,100% 77%,50% 100%,0 75%,0 0);
+    position: relative;
+
+}
+
+/* Start 2div */
+.b1{
+    min-height: 290px;
+}
+.extra-div{
+    background: rgb(241, 233, 233);
+   border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra p{
+    background: rgb(241, 233, 233);
+   
+}
+.extra-div:hover{
+    box-shadow: 0 0 3px 3px rgb(240, 172, 172);
+    transform: translateY(-20px);
+}
+/* Start 3div */
+.c1{
+    min-height: 60px;
+}
+.c11{
+    max-height: 60px;
+}
+/* Start 4div */
+.d1{
+    min-height: 100px;
+    border-radius: 50%;
+    width:100px
+}
+.extra-div5:hover{
+    box-shadow: 0 0 3px 3px rgb(235, 28, 28);
+    transform: translateY(-20px);
+    background-color: black;
+    color: blanchedalmond;
+    text-shadow: 1px 1px red;
+}
+
+/* Start 5div */
+.vishal{
+    background-color: black;
+    
+    color:rgb(252, 249, 249);
+   
+}
+.vishal3{
+    
+    height: auto;
+    
+}
+.vishal1{
+    
+    
+}
+.n1{
+    min-height: 133px;
+}
+.n2{
+    min-height: 133px;
+}
+.n3{
+    min-height: 133px;
+}
